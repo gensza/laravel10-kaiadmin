@@ -171,192 +171,192 @@
         </div>
     </div>
     <!-- <div class="row">
-              <div class="col-md-4">
-               <div class="card">
-                <div class="card-body pb-0">
-                 <div class="h1 fw-bold float-end text-primary">+5%</div>
-                 <h2 class="mb-2">17</h2>
-                 <p class="text-muted">Users online</p>
-                 <div class="pull-in sparkline-fix">
-                  <div id="lineChart"></div>
-                 </div>
-                </div>
-               </div>
-              </div>
-              <div class="col-md-4">
-               <div class="card">
-                <div class="card-body pb-0">
-                 <div class="h1 fw-bold float-end text-danger">-3%</div>
-                 <h2 class="mb-2">27</h2>
-                 <p class="text-muted">New Users</p>
-                 <div class="pull-in sparkline-fix">
-                  <div id="lineChart2"></div>
-                 </div>
-                </div>
-               </div>
-              </div>
-              <div class="col-md-4">
-               <div class="card">
-                <div class="card-body pb-0">
-                 <div class="h1 fw-bold float-end text-warning">+7%</div>
-                 <h2 class="mb-2">213</h2>
-                 <p class="text-muted">Transactions</p>
-                 <div class="pull-in sparkline-fix">
-                  <div id="lineChart3"></div>
-                 </div>
-                </div>
-               </div>
-              </div>
-             </div> -->
+                              <div class="col-md-4">
+                               <div class="card">
+                                <div class="card-body pb-0">
+                                 <div class="h1 fw-bold float-end text-primary">+5%</div>
+                                 <h2 class="mb-2">17</h2>
+                                 <p class="text-muted">Users online</p>
+                                 <div class="pull-in sparkline-fix">
+                                  <div id="lineChart"></div>
+                                 </div>
+                                </div>
+                               </div>
+                              </div>
+                              <div class="col-md-4">
+                               <div class="card">
+                                <div class="card-body pb-0">
+                                 <div class="h1 fw-bold float-end text-danger">-3%</div>
+                                 <h2 class="mb-2">27</h2>
+                                 <p class="text-muted">New Users</p>
+                                 <div class="pull-in sparkline-fix">
+                                  <div id="lineChart2"></div>
+                                 </div>
+                                </div>
+                               </div>
+                              </div>
+                              <div class="col-md-4">
+                               <div class="card">
+                                <div class="card-body pb-0">
+                                 <div class="h1 fw-bold float-end text-warning">+7%</div>
+                                 <h2 class="mb-2">213</h2>
+                                 <p class="text-muted">Transactions</p>
+                                 <div class="pull-in sparkline-fix">
+                                  <div id="lineChart3"></div>
+                                 </div>
+                                </div>
+                               </div>
+                              </div>
+                             </div> -->
     <!-- <div class="row">
-              <div class="col-md-4">
-               <div class="card">
-                <div class="card-header">
-                 <div class="card-title">Top Products</div>
-                </div>
-                <div class="card-body pb-0">
-                 <div class="d-flex">
-                  <div class="avatar">
-                   <img src="assets/img/logoproduct.svg" alt="..." class="avatar-img rounded-circle">
-                  </div>
-                  <div class="flex-1 pt-1 ms-2">
-                   <h6 class="fw-bold mb-1">CSS</h6>
-                   <small class="text-muted">Cascading Style Sheets</small>
-                  </div>
-                  <div class="d-flex ms-auto align-items-center">
-                   <h4 class="text-info fw-bold">+$17</h4>
-                  </div>
-                 </div>
-                 <div class="separator-dashed"></div>
-                 <div class="d-flex">
-                  <div class="avatar">
-                   <img src="assets/img/logoproduct.svg" alt="..." class="avatar-img rounded-circle">
-                  </div>
-                  <div class="flex-1 pt-1 ms-2">
-                   <h6 class="fw-bold mb-1">J.CO Donuts</h6>
-                   <small class="text-muted">The Best Donuts</small>
-                  </div>
-                  <div class="d-flex ms-auto align-items-center">
-                   <h4 class="text-info fw-bold">+$300</h4>
-                  </div>
-                 </div>
-                 <div class="separator-dashed"></div>
-                 <div class="d-flex">
-                  <div class="avatar">
-                   <img src="assets/img/logoproduct3.svg" alt="..." class="avatar-img rounded-circle">
-                  </div>
-                  <div class="flex-1 pt-1 ms-2">
-                   <h6 class="fw-bold mb-1">Ready Pro</h6>
-                   <small class="text-muted">Bootstrap 5 Admin Dashboard</small>
-                  </div>
-                  <div class="d-flex ms-auto align-items-center">
-                   <h4 class="text-info fw-bold">+$350</h4>
-                  </div>
-                 </div>
-                 <div class="separator-dashed"></div>
-                 <div class="pull-in">
-                  <canvas id="topProductsChart"></canvas>
-                 </div>
-                </div>
-               </div>
-              </div>
-              <div class="col-md-4">
-               <div class="card">
-                <div class="card-body">
-                 <div class="card-title fw-mediumbold">Suggested People</div>
-                 <div class="card-list">
-                  <div class="item-list">
-                   <div class="avatar">
-                    <img src="assets/img/jm_denis.jpg" alt="..." class="avatar-img rounded-circle">
-                   </div>
-                   <div class="info-user ms-3">
-                    <div class="username">Jimmy Denis</div>
-                    <div class="status">Graphic Designer</div>
-                   </div>
-                   <button class="btn btn-icon btn-primary btn-round btn-xs">
-                    <i class="fa fa-plus"></i>
-                   </button>
-                  </div>
-                  <div class="item-list">
-                   <div class="avatar">
-                    <img src="assets/img/chadengle.jpg" alt="..." class="avatar-img rounded-circle">
-                   </div>
-                   <div class="info-user ms-3">
-                    <div class="username">Chad</div>
-                    <div class="status">CEO Zeleaf</div>
-                   </div>
-                   <button class="btn btn-icon btn-primary btn-round btn-xs">
-                    <i class="fa fa-plus"></i>
-                   </button>
-                  </div>
-                  <div class="item-list">
-                   <div class="avatar">
-                    <img src="assets/img/talha.jpg" alt="..." class="avatar-img rounded-circle">
-                   </div>
-                   <div class="info-user ms-3">
-                    <div class="username">Talha</div>
-                    <div class="status">Front End Designer</div>
-                   </div>
-                   <button class="btn btn-icon btn-primary btn-round btn-xs">
-                    <i class="fa fa-plus"></i>
-                   </button>
-                  </div>
-                  <div class="item-list">
-                   <div class="avatar">
-                    <img src="assets/img/mlane.jpg" alt="..." class="avatar-img rounded-circle">
-                   </div>
-                   <div class="info-user ms-3">
-                    <div class="username">John Doe</div>
-                    <div class="status">Back End Developer</div>
-                   </div>
-                   <button class="btn btn-icon btn-primary btn-round btn-xs">
-                    <i class="fa fa-plus"></i>
-                   </button>
-                  </div>
-                  <div class="item-list">
-                   <div class="avatar">
-                    <img src="assets/img/talha.jpg" alt="..." class="avatar-img rounded-circle">
-                   </div>
-                   <div class="info-user ms-3">
-                    <div class="username">Talha</div>
-                    <div class="status">Front End Designer</div>
-                   </div>
-                   <button class="btn btn-icon btn-primary btn-round btn-xs">
-                    <i class="fa fa-plus"></i>
-                   </button>
-                  </div>
-                  <div class="item-list">
-                   <div class="avatar">
-                    <img src="assets/img/jm_denis.jpg" alt="..." class="avatar-img rounded-circle">
-                   </div>
-                   <div class="info-user ms-3">
-                    <div class="username">Jimmy Denis</div>
-                    <div class="status">Graphic Designer</div>
-                   </div>
-                   <button class="btn btn-icon btn-primary btn-round btn-xs">
-                    <i class="fa fa-plus"></i>
-                   </button>
-                  </div>
-                 </div>
-                </div>
-               </div>
-              </div>
-              <div class="col-md-4">
-               <div class="card card-primary bg-primary-gradient">
-                <div class="card-body">
-                 <h5 class="mt-3 b-b1 pb-2 mb-4 fw-bold">Active user right now</h5>
-                 <h1 class="mb-4 fw-bold">17</h1>
-                 <h5 class="mt-3 b-b1 pb-2 mb-5 fw-bold">Page view per minutes</h5>
-                 <div id="activeUsersChart"></div>
-                 <h5 class="mt-5 pb-3 mb-0 fw-bold">Top active pages</h5>
-                 <ul class="list-unstyled">
-                  <li class="d-flex justify-content-between pb-1 pt-1"><small>/product/readypro/index.html</small> <span>7</span></li>
-                  <li class="d-flex justify-content-between pb-1 pt-1"><small>/product/kaiadmin/demo.html</small> <span>10</span></li>
-                 </ul>
-                </div>
-               </div>
-              </div>
-             </div> -->
+                              <div class="col-md-4">
+                               <div class="card">
+                                <div class="card-header">
+                                 <div class="card-title">Top Products</div>
+                                </div>
+                                <div class="card-body pb-0">
+                                 <div class="d-flex">
+                                  <div class="avatar">
+                                   <img src="assets/img/logoproduct.svg" alt="..." class="avatar-img rounded-circle">
+                                  </div>
+                                  <div class="flex-1 pt-1 ms-2">
+                                   <h6 class="fw-bold mb-1">CSS</h6>
+                                   <small class="text-muted">Cascading Style Sheets</small>
+                                  </div>
+                                  <div class="d-flex ms-auto align-items-center">
+                                   <h4 class="text-info fw-bold">+$17</h4>
+                                  </div>
+                                 </div>
+                                 <div class="separator-dashed"></div>
+                                 <div class="d-flex">
+                                  <div class="avatar">
+                                   <img src="assets/img/logoproduct.svg" alt="..." class="avatar-img rounded-circle">
+                                  </div>
+                                  <div class="flex-1 pt-1 ms-2">
+                                   <h6 class="fw-bold mb-1">J.CO Donuts</h6>
+                                   <small class="text-muted">The Best Donuts</small>
+                                  </div>
+                                  <div class="d-flex ms-auto align-items-center">
+                                   <h4 class="text-info fw-bold">+$300</h4>
+                                  </div>
+                                 </div>
+                                 <div class="separator-dashed"></div>
+                                 <div class="d-flex">
+                                  <div class="avatar">
+                                   <img src="assets/img/logoproduct3.svg" alt="..." class="avatar-img rounded-circle">
+                                  </div>
+                                  <div class="flex-1 pt-1 ms-2">
+                                   <h6 class="fw-bold mb-1">Ready Pro</h6>
+                                   <small class="text-muted">Bootstrap 5 Admin Dashboard</small>
+                                  </div>
+                                  <div class="d-flex ms-auto align-items-center">
+                                   <h4 class="text-info fw-bold">+$350</h4>
+                                  </div>
+                                 </div>
+                                 <div class="separator-dashed"></div>
+                                 <div class="pull-in">
+                                  <canvas id="topProductsChart"></canvas>
+                                 </div>
+                                </div>
+                               </div>
+                              </div>
+                              <div class="col-md-4">
+                               <div class="card">
+                                <div class="card-body">
+                                 <div class="card-title fw-mediumbold">Suggested People</div>
+                                 <div class="card-list">
+                                  <div class="item-list">
+                                   <div class="avatar">
+                                    <img src="assets/img/jm_denis.jpg" alt="..." class="avatar-img rounded-circle">
+                                   </div>
+                                   <div class="info-user ms-3">
+                                    <div class="username">Jimmy Denis</div>
+                                    <div class="status">Graphic Designer</div>
+                                   </div>
+                                   <button class="btn btn-icon btn-primary btn-round btn-xs">
+                                    <i class="fa fa-plus"></i>
+                                   </button>
+                                  </div>
+                                  <div class="item-list">
+                                   <div class="avatar">
+                                    <img src="assets/img/chadengle.jpg" alt="..." class="avatar-img rounded-circle">
+                                   </div>
+                                   <div class="info-user ms-3">
+                                    <div class="username">Chad</div>
+                                    <div class="status">CEO Zeleaf</div>
+                                   </div>
+                                   <button class="btn btn-icon btn-primary btn-round btn-xs">
+                                    <i class="fa fa-plus"></i>
+                                   </button>
+                                  </div>
+                                  <div class="item-list">
+                                   <div class="avatar">
+                                    <img src="assets/img/talha.jpg" alt="..." class="avatar-img rounded-circle">
+                                   </div>
+                                   <div class="info-user ms-3">
+                                    <div class="username">Talha</div>
+                                    <div class="status">Front End Designer</div>
+                                   </div>
+                                   <button class="btn btn-icon btn-primary btn-round btn-xs">
+                                    <i class="fa fa-plus"></i>
+                                   </button>
+                                  </div>
+                                  <div class="item-list">
+                                   <div class="avatar">
+                                    <img src="assets/img/mlane.jpg" alt="..." class="avatar-img rounded-circle">
+                                   </div>
+                                   <div class="info-user ms-3">
+                                    <div class="username">John Doe</div>
+                                    <div class="status">Back End Developer</div>
+                                   </div>
+                                   <button class="btn btn-icon btn-primary btn-round btn-xs">
+                                    <i class="fa fa-plus"></i>
+                                   </button>
+                                  </div>
+                                  <div class="item-list">
+                                   <div class="avatar">
+                                    <img src="assets/img/talha.jpg" alt="..." class="avatar-img rounded-circle">
+                                   </div>
+                                   <div class="info-user ms-3">
+                                    <div class="username">Talha</div>
+                                    <div class="status">Front End Designer</div>
+                                   </div>
+                                   <button class="btn btn-icon btn-primary btn-round btn-xs">
+                                    <i class="fa fa-plus"></i>
+                                   </button>
+                                  </div>
+                                  <div class="item-list">
+                                   <div class="avatar">
+                                    <img src="assets/img/jm_denis.jpg" alt="..." class="avatar-img rounded-circle">
+                                   </div>
+                                   <div class="info-user ms-3">
+                                    <div class="username">Jimmy Denis</div>
+                                    <div class="status">Graphic Designer</div>
+                                   </div>
+                                   <button class="btn btn-icon btn-primary btn-round btn-xs">
+                                    <i class="fa fa-plus"></i>
+                                   </button>
+                                  </div>
+                                 </div>
+                                </div>
+                               </div>
+                              </div>
+                              <div class="col-md-4">
+                               <div class="card card-primary bg-primary-gradient">
+                                <div class="card-body">
+                                 <h5 class="mt-3 b-b1 pb-2 mb-4 fw-bold">Active user right now</h5>
+                                 <h1 class="mb-4 fw-bold">17</h1>
+                                 <h5 class="mt-3 b-b1 pb-2 mb-5 fw-bold">Page view per minutes</h5>
+                                 <div id="activeUsersChart"></div>
+                                 <h5 class="mt-5 pb-3 mb-0 fw-bold">Top active pages</h5>
+                                 <ul class="list-unstyled">
+                                  <li class="d-flex justify-content-between pb-1 pt-1"><small>/product/readypro/index.html</small> <span>7</span></li>
+                                  <li class="d-flex justify-content-between pb-1 pt-1"><small>/product/kaiadmin/demo.html</small> <span>10</span></li>
+                                 </ul>
+                                </div>
+                               </div>
+                              </div>
+                             </div> -->
     <div class="row">
         <div class="col-md-8">
             <div class="card">
@@ -765,4 +765,57 @@
             </div>
         </div>
     </div>
+@endSection
+
+@section('js')
+    <!-- Chart JS -->
+    <script src="assets/js/plugin/chart.js/chart.min.js"></script>
+
+    <!-- jQuery Sparkline -->
+    <script src="assets/js/plugin/jquery.sparkline/jquery.sparkline.min.js"></script>
+
+    <!-- Chart Circle -->
+    <script src="assets/js/plugin/chart-circle/circles.min.js"></script>
+
+    <!-- Datatables -->
+    <script src="assets/js/plugin/datatables/datatables.min.js"></script>
+
+    <!-- Bootstrap Notify -->
+    <script src="assets/js/plugin/bootstrap-notify/bootstrap-notify.min.js"></script>
+
+    <!-- jQuery Vector Maps -->
+    <script src="assets/js/plugin/jsvectormap/jsvectormap.min.js"></script>
+    <script src="assets/js/plugin/jsvectormap/world.js"></script>
+
+    <!-- Sweet Alert -->
+    <script src="assets/js/plugin/sweetalert/sweetalert.min.js"></script>
+
+    <script>
+        $("#lineChart").sparkline([102, 109, 120, 99, 110, 105, 115], {
+            type: "line",
+            height: "70",
+            width: "100%",
+            lineWidth: "2",
+            lineColor: "#177dff",
+            fillColor: "rgba(23, 125, 255, 0.14)",
+        });
+
+        $("#lineChart2").sparkline([99, 125, 122, 105, 110, 124, 115], {
+            type: "line",
+            height: "70",
+            width: "100%",
+            lineWidth: "2",
+            lineColor: "#f3545d",
+            fillColor: "rgba(243, 84, 93, .14)",
+        });
+
+        $("#lineChart3").sparkline([105, 103, 123, 100, 95, 105, 115], {
+            type: "line",
+            height: "70",
+            width: "100%",
+            lineWidth: "2",
+            lineColor: "#ffa534",
+            fillColor: "rgba(255, 165, 52, .14)",
+        });
+    </script>
 @endSection
