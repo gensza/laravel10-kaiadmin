@@ -1,100 +1,232 @@
-<nav x-data="{ open: false }" class="bg-white dark:bg-gray-800 border-b border-gray-100 dark:border-gray-700">
-    <!-- Primary Navigation Menu -->
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="flex justify-between h-16">
-            <div class="flex">
-                <!-- Logo -->
-                <div class="shrink-0 flex items-center">
-                    <a href="{{ route('dashboard') }}">
-                        <x-application-logo class="block h-9 w-auto fill-current text-gray-800 dark:text-gray-200" />
-                    </a>
+<div class="sidebar-wrapper scrollbar scrollbar-inner">
+    <div class="sidebar-content">
+        <ul class="nav nav-secondary">
+            <li class="nav-item active">
+                <a href="/dashboard">
+                    <i class="fas fa-home"></i>
+                    <p>Dashboard</p>
+                </a>
+            </li>
+            <li class="nav-section">
+                <span class="sidebar-mini-icon">
+                    <i class="fa fa-ellipsis-h"></i>
+                </span>
+                <h4 class="text-section">Components</h4>
+            </li>
+            <li class="nav-item">
+                <a data-bs-toggle="collapse" href="#base">
+                    <i class="fas fa-layer-group"></i>
+                    <p>Base</p>
+                    <span class="caret"></span>
+                </a>
+                <div class="collapse" id="base">
+                    <ul class="nav nav-collapse">
+                        <li>
+                            <a href="components/avatars.html">
+                                <span class="sub-item">Avatars</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="components/buttons.html">
+                                <span class="sub-item">Buttons</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="components/gridsystem.html">
+                                <span class="sub-item">Grid System</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="components/panels.html">
+                                <span class="sub-item">Panels</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="components/notifications.html">
+                                <span class="sub-item">Notifications</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="components/sweetalert.html">
+                                <span class="sub-item">Sweet Alert</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="components/font-awesome-icons.html">
+                                <span class="sub-item">Font Awesome Icons</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="components/simple-line-icons.html">
+                                <span class="sub-item">Simple Line Icons</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="components/typography.html">
+                                <span class="sub-item">Typography</span>
+                            </a>
+                        </li>
+                    </ul>
                 </div>
-
-                <!-- Navigation Links -->
-                <div class="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex">
-                    <x-nav-link :href="route('dashboard')" :active="request()->routeIs('dashboard')">
-                        {{ __('Dashboard') }}
-                    </x-nav-link>
+            </li>
+            <li class="nav-item submenu">
+                <a data-bs-toggle="collapse" href="#sidebarLayouts">
+                    <i class="fas fa-th-list"></i>
+                    <p>Sidebar Layouts</p>
+                    <span class="caret"></span>
+                </a>
+                <div class="collapse" id="sidebarLayouts">
+                    <ul class="nav nav-collapse">
+                        <li>
+                            <a href="sidebar-style-2.html">
+                                <span class="sub-item">Sidebar Style 2</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="icon-menu.html">
+                                <span class="sub-item">Icon Menu</span>
+                            </a>
+                        </li>
+                    </ul>
                 </div>
-            </div>
-
-            <!-- Settings Dropdown -->
-            <div class="hidden sm:flex sm:items-center sm:ms-6">
-                <x-dropdown align="right" width="48">
-                    <x-slot name="trigger">
-                        <button class="inline-flex items-center px-3 py-2 border border-transparent text-sm leading-4 font-medium rounded-md text-gray-500 dark:text-gray-400 bg-white dark:bg-gray-800 hover:text-gray-700 dark:hover:text-gray-300 focus:outline-none transition ease-in-out duration-150">
-                            <div>{{ Auth::user()->name }}</div>
-
-                            <div class="ms-1">
-                                <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
-                                    <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
-                                </svg>
+            </li>
+            <li class="nav-item">
+                <a data-bs-toggle="collapse" href="#forms">
+                    <i class="fas fa-pen-square"></i>
+                    <p>Forms</p>
+                    <span class="caret"></span>
+                </a>
+                <div class="collapse" id="forms">
+                    <ul class="nav nav-collapse">
+                        <li>
+                            <a href="forms/forms.html">
+                                <span class="sub-item">Basic Form</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a data-bs-toggle="collapse" href="#tables">
+                    <i class="fas fa-table"></i>
+                    <p>Tables</p>
+                    <span class="caret"></span>
+                </a>
+                <div class="collapse" id="tables">
+                    <ul class="nav nav-collapse">
+                        <li>
+                            <a href="tables/tables.html">
+                                <span class="sub-item">Basic Table</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="tables/datatables.html">
+                                <span class="sub-item">Datatables</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a data-bs-toggle="collapse" href="#maps">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <p>Maps</p>
+                    <span class="caret"></span>
+                </a>
+                <div class="collapse" id="maps">
+                    <ul class="nav nav-collapse">
+                        <li>
+                            <a href="maps/googlemaps.html">
+                                <span class="sub-item">Google Maps</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="maps/jsvectormap.html">
+                                <span class="sub-item">Jsvectormap</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a data-bs-toggle="collapse" href="#charts">
+                    <i class="far fa-chart-bar"></i>
+                    <p>Charts</p>
+                    <span class="caret"></span>
+                </a>
+                <div class="collapse" id="charts">
+                    <ul class="nav nav-collapse">
+                        <li>
+                            <a href="charts/charts.html">
+                                <span class="sub-item">Chart Js</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="charts/sparkline.html">
+                                <span class="sub-item">Sparkline</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a href="widgets.html">
+                    <i class="fas fa-desktop"></i>
+                    <p>Widgets</p>
+                    <span class="badge badge-success">4</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a data-bs-toggle="collapse" href="#submenu">
+                    <i class="fas fa-bars"></i>
+                    <p>Menu Levels</p>
+                    <span class="caret"></span>
+                </a>
+                <div class="collapse" id="submenu">
+                    <ul class="nav nav-collapse">
+                        <li>
+                            <a data-bs-toggle="collapse" href="#subnav1">
+                                <span class="sub-item">Level 1</span>
+                                <span class="caret"></span>
+                            </a>
+                            <div class="collapse" id="subnav1">
+                                <ul class="nav nav-collapse subnav">
+                                    <li>
+                                        <a href="#">
+                                            <span class="sub-item">Level 2</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <span class="sub-item">Level 2</span>
+                                        </a>
+                                    </li>
+                                </ul>
                             </div>
-                        </button>
-                    </x-slot>
-
-                    <x-slot name="content">
-                        <x-dropdown-link :href="route('profile.edit')">
-                            {{ __('Profile') }}
-                        </x-dropdown-link>
-
-                        <!-- Authentication -->
-                        <form method="POST" action="{{ route('logout') }}">
-                            @csrf
-
-                            <x-dropdown-link :href="route('logout')"
-                                    onclick="event.preventDefault();
-                                                this.closest('form').submit();">
-                                {{ __('Log Out') }}
-                            </x-dropdown-link>
-                        </form>
-                    </x-slot>
-                </x-dropdown>
-            </div>
-
-            <!-- Hamburger -->
-            <div class="-me-2 flex items-center sm:hidden">
-                <button @click="open = ! open" class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 dark:text-gray-500 hover:text-gray-500 dark:hover:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-900 focus:outline-none focus:bg-gray-100 dark:focus:bg-gray-900 focus:text-gray-500 dark:focus:text-gray-400 transition duration-150 ease-in-out">
-                    <svg class="h-6 w-6" stroke="currentColor" fill="none" viewBox="0 0 24 24">
-                        <path :class="{'hidden': open, 'inline-flex': ! open }" class="inline-flex" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
-                        <path :class="{'hidden': ! open, 'inline-flex': open }" class="hidden" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
-                    </svg>
-                </button>
-            </div>
-        </div>
+                        </li>
+                        <li>
+                            <a data-bs-toggle="collapse" href="#subnav2">
+                                <span class="sub-item">Level 1</span>
+                                <span class="caret"></span>
+                            </a>
+                            <div class="collapse" id="subnav2">
+                                <ul class="nav nav-collapse subnav">
+                                    <li>
+                                        <a href="#">
+                                            <span class="sub-item">Level 2</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="sub-item">Level 1</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
     </div>
-
-    <!-- Responsive Navigation Menu -->
-    <div :class="{'block': open, 'hidden': ! open}" class="hidden sm:hidden">
-        <div class="pt-2 pb-3 space-y-1">
-            <x-responsive-nav-link :href="route('dashboard')" :active="request()->routeIs('dashboard')">
-                {{ __('Dashboard') }}
-            </x-responsive-nav-link>
-        </div>
-
-        <!-- Responsive Settings Options -->
-        <div class="pt-4 pb-1 border-t border-gray-200 dark:border-gray-600">
-            <div class="px-4">
-                <div class="font-medium text-base text-gray-800 dark:text-gray-200">{{ Auth::user()->name }}</div>
-                <div class="font-medium text-sm text-gray-500">{{ Auth::user()->email }}</div>
-            </div>
-
-            <div class="mt-3 space-y-1">
-                <x-responsive-nav-link :href="route('profile.edit')">
-                    {{ __('Profile') }}
-                </x-responsive-nav-link>
-
-                <!-- Authentication -->
-                <form method="POST" action="{{ route('logout') }}">
-                    @csrf
-
-                    <x-responsive-nav-link :href="route('logout')"
-                            onclick="event.preventDefault();
-                                        this.closest('form').submit();">
-                        {{ __('Log Out') }}
-                    </x-responsive-nav-link>
-                </form>
-            </div>
-        </div>
-    </div>
-</nav>
+</div>
